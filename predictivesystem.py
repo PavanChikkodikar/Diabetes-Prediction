@@ -17,6 +17,7 @@ prediction = loaded_model.predict(input_data_reshaped)
 print(prediction)
 
 if (prediction[0] == 0):
+  #if a person has diabetic --> 1 else 0
   print('The person is not diabetic')
 else:
   print('The person is diabetic')

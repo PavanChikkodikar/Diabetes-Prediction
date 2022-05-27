@@ -31,14 +31,11 @@ def diabetes_prediction(input_data):
   
 def main():
     
-    
-    # giving a title
+
     st.title('Diabetes Prediction Web App')
     
     
     # getting the input data from the user
-    
-    
     Pregnancies = st.text_input('Number of Pregnancies')
     Glucose = st.text_input('Glucose Level')
     BloodPressure = st.text_input('Blood Pressure value')
